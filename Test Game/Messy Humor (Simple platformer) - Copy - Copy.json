@@ -1,0 +1,629 @@
+{
+  "firstLayout": "",
+  "gdVersion": {
+    "build": 258,
+    "major": 5,
+    "minor": 6,
+    "revision": 0
+  },
+  "properties": {
+    "adaptGameResolutionAtRuntime": true,
+    "antialiasingMode": "MSAA",
+    "antialisingEnabledOnMobile": false,
+    "folderProject": true,
+    "orientation": "landscape",
+    "packageName": "com.example.simpleplatformer",
+    "pixelsRounding": true,
+    "projectUuid": "d45b2936-29af-48c3-8746-a3a416c50b72",
+    "scaleMode": "nearest",
+    "sizeOnStartupMode": "adaptWidth",
+    "templateSlug": "simple-platformer",
+    "version": "1.0.0",
+    "name": "Messy Humor (Simple platformer) - Copy - Copy",
+    "description": "A simple platformer example game where the player can pick up coins to improve their score and die to an enemy character and falling off of platforms.\n\nThis example features:\n-Platformer behavior\n-Smooth camera behavior\n-Mobile controls\n-Various types of platforms\n-Basic enemy movement",
+    "author": "",
+    "windowWidth": 1280,
+    "windowHeight": 720,
+    "latestCompilationDirectory": "",
+    "maxFPS": 60,
+    "minFPS": 20,
+    "verticalSync": false,
+    "platformSpecificAssets": {
+      "android-icon-144": "",
+      "android-icon-192": "",
+      "android-icon-36": "",
+      "android-icon-48": "",
+      "android-icon-72": "",
+      "android-icon-96": "",
+      "android-windowSplashScreenAnimatedIcon": "",
+      "desktop-icon-512": "",
+      "ios-icon-100": "",
+      "ios-icon-1024": "",
+      "ios-icon-114": "",
+      "ios-icon-120": "",
+      "ios-icon-144": "",
+      "ios-icon-152": "",
+      "ios-icon-167": "",
+      "ios-icon-180": "",
+      "ios-icon-20": "",
+      "ios-icon-29": "",
+      "ios-icon-40": "",
+      "ios-icon-50": "",
+      "ios-icon-57": "",
+      "ios-icon-58": "",
+      "ios-icon-60": "",
+      "ios-icon-72": "",
+      "ios-icon-76": "",
+      "ios-icon-80": "",
+      "ios-icon-87": "",
+      "liluo-thumbnail": "preview.png"
+    },
+    "loadingScreen": {
+      "backgroundColor": 0,
+      "backgroundFadeInDuration": 0.2,
+      "backgroundImageResourceName": "",
+      "gdevelopLogoStyle": "light",
+      "logoAndProgressFadeInDuration": 0.2,
+      "logoAndProgressLogoFadeInDelay": 0,
+      "minDuration": 1.5,
+      "progressBarColor": 16777215,
+      "progressBarHeight": 20,
+      "progressBarMaxWidth": 200,
+      "progressBarMinWidth": 40,
+      "progressBarWidthPercent": 30,
+      "showGDevelopSplash": true,
+      "showProgressBar": true
+    },
+    "watermark": {
+      "placement": "bottom-left",
+      "showWatermark": true
+    },
+    "authorIds": [],
+    "authorUsernames": [],
+    "categories": [],
+    "playableDevices": [
+      "mobile",
+      "mobile"
+    ],
+    "extensionProperties": [],
+    "platforms": [
+      {
+        "name": "GDevelop JS platform"
+      }
+    ],
+    "currentPlatform": "GDevelop JS platform"
+  },
+  "resources": {
+    "resources": [
+      {
+        "file": "assets/Knight-Idle1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Knight-Idle1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Knight-Idle2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Knight-Idle2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Knight-Idle3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Knight-Idle3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Knight-Idle4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Knight-Idle4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Platform_Bridge.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Platform_Bridge.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Platform_JumpThrough.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Platform_JumpThrough.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/coin1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "coin1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/coin2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "coin2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/coin3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "coin3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/coin4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "coin4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/coin5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "coin5.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/coin6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "coin6.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/coin7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "coin7.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/coin8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "coin8.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/coin9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "coin9.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/coin10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "coin10.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/coin11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "coin11.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/coin12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "coin12.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/slime_green_walk1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "slime_green_walk1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/slime_green_walk2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "slime_green_walk2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/slime_green_walk3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "slime_green_walk3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/slime_green_walk4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "slime_green_walk4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Knight-Death1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Knight-Death1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Knight-Death2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Knight-Death2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Knight-Death3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Knight-Death3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Knight-Death4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Knight-Death4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Boundary.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Boundary",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/PixelOperator8-Bold.fnt",
+        "kind": "bitmapFont",
+        "metadata": "",
+        "name": "PixelOperator8-Bold.fnt",
+        "userAdded": true
+      },
+      {
+        "file": "assets/PixelOperator8-Bold.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "PixelOperator8-Bold.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Knight-Roll3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Knight-Roll3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Knight-Roll4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Knight-Roll4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Knight-Roll5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Knight-Roll5.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Knight-Roll6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Knight-Roll6.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Knight-Roll7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Knight-Roll7.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Knight-Roll8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Knight-Roll8.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Knight-Run1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Knight-Run1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Knight-Run2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Knight-Run2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Knight-Run3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Knight-Run3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Knight-Run4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Knight-Run4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Knight-Run5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Knight-Run5.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Knight-Run6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Knight-Run6.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Knight-Run7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Knight-Run7.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Knight-Run8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Knight-Run8.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Knight-Run9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Knight-Run9.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Knight-Run10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Knight-Run10.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Knight-Run11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Knight-Run11.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Knight-Run12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Knight-Run12.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Knight-Run13.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Knight-Run13.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Knight-Run14.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Knight-Run14.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Knight-Run15.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Knight-Run15.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Knight-Run16.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Knight-Run16.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/coin.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "coin.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/hurt.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "hurt.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/time_for_adventure.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "time_for_adventure.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Left arrow round button.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Left arrow round button.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/On-Screen Controls/Sprites/Shaded Dark/f755ec56218a581fb4eb4c0c191db2c44a9a1e175dd364c230c211f0d9bd4e49_Left arrow round button.png",
+          "name": "Left arrow round button.png"
+        }
+      },
+      {
+        "file": "assets/Right arrow round button.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Right arrow round button.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/On-Screen Controls/Sprites/Shaded Dark/225220b063f1e3e52063ea032322443a816241fb8e55c6461d437847c5e69eef_Right arrow round button.png",
+          "name": "Right arrow round button.png"
+        }
+      },
+      {
+        "file": "assets/Top arrow round button.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Top arrow round button.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/On-Screen Controls/Sprites/Shaded Dark/1f32e55ab59452d3021e8268476eac0edaad0c74e5e11adf46803d12947bf228_Top arrow round button.png",
+          "name": "Top arrow round button.png"
+        }
+      },
+      {
+        "file": "assets/preview.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "preview.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/World_Tileset.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\World_Tileset.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Background_Tileset.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Background_Tileset.png",
+        "smoothed": false,
+        "userAdded": true
+      }
+    ]
+  },
+  "objects": [],
+  "objectsFolderStructure": {
+    "folderName": "__ROOT"
+  },
+  "objectsGroups": [],
+  "variables": [],
+  "layouts": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/game-scene"
+    }
+  ],
+  "externalEvents": [],
+  "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/buttonstates"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/platformercharacteranimator"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/rectanglemovement"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/smoothcamera"
+    }
+  ],
+  "externalLayouts": []
+}
